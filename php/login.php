@@ -4,19 +4,19 @@ $password=$_POST['password'];
 $res=[];
 $users=[
 	[
-		'login'=>'john',
+		'login'=>'aram',
 		'password'=>'123456'
 	],
 	[
-		'login'=>'jenny',
+		'login'=>'ani',
 		'password'=>'456789'
 	],
 	[
-		'login'=>'horton',
+		'login'=>'karen',
 		'password'=>'789123'
 	],
 	[
-		'login'=>'james',
+		'login'=>'milena',
 		'password'=>'1111'
 	]
 ];
