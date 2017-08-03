@@ -1,11 +1,11 @@
 $(document).ready(function(){
 	$("#myForm").submit(function(e) {
 		e.preventDefault(); 
-		var url = "php/login.php"; 
+		var url = 'php/login.php'; 
 		$.ajax({
-			type: "POST",
+			type: 'POST',
 			url: url,
-			data: $("#myForm").serialize(), // serializes the form's elements.
+			data: $('#myForm').serialize(), 
 			success:function(data){
 				var results=JSON.parse(data);
 				var info=$('#info');
