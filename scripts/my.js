@@ -1,7 +1,7 @@
 $(document).ready(function(){
 	$("#myForm").submit(function(e) {
 		e.preventDefault(); 
-		var url = "php/login.php"; // the script where you handle the form input.
+		var url = "php/login.php"; 
 		$.ajax({
 			type: "POST",
 			url: url,
